@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+}
+.hero-section {
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+.list-container li {
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+}
+.btn {
+  filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+  width: 154px;
+  padding: 20px 36px;
+  border-radius: 39px;
+  font-family: Poppins;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.header .btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.hamburger-container {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.hamburger-container div:nth-child(1) {
+  display: block;
+  margin-bottom: 5px;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+.hamburger-container div:nth-child(2) {
+  display: block;
+  margin-bottom: 5px;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+}
+.hamburger-container div:nth-child(3) {
+  display: block;
+  margin-bottom: 5px;
+  width: 10px;
+  height: 2px;
+  background-color: white;
+}
+
+/***** Title Section *****/
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-section h1 {
+  max-width: 100%;
+  margin-top: 128px;
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 65.5px;
+  color: white;
+  width: 630px;
+  text-align: center;
+}
+.title-section h3 {
+  font-family: Poppins;
+  margin-top: 27px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+/***** Hero Buttons Section *****/
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 71px;
+}
+.buttons-section button {
+  min-width: 183px;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 18px 46px;
+}
+.btn-white {
+  background-color: white;
+  color: #112d57;
+  box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+}
+
+/***** Dashboard Section *****/
+.dashboard-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.dashboard-section img {
+  margin-top: 71px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  .logo-container img {
+    width: 100px;
+    margin-left: 10px;
+  }
+  .hamburger-container {
+    display: flex;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 1s ease-out;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .btn-transparent {
+    order: 2;
+    width: 100px;
+    padding: 10px 19px;
+  }
+  .list-container {
+    padding-top: 20px;
+    display: none;
+    order: 1;
+  }
+  .list-container li {
+    transition: all 1s ease-out;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  .navbar-active {
+    display: block;
+  }
+  .title-section h1 {
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 57px;
+  }
+  .title-section h3 {
+    text-align: center;
+  }
+  .buttons-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttons-section .btn {
+    width: 60%;
+    padding: 20px 20px;
+    margin: 13px;
+  }
+  .dashboard-section img {
+    width: 80%;
+  }
+}
