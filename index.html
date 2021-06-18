@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Figma Land</title>
   </head>
   <body>
-    <section class="wrapper">
+    <main class="wrapper">
       <!----- Hero Section Start ----->
       <section class="hero-section">
         <!----- Header Section Start ----->
         <header class="header">
-          <div class="logo-container">
+          <figure class="logo-container">
             <a href="#">
               <img src="assets/header-logo.png" alt="logo" />
             </a>
-          </div>
+          </figure>
           <div class="list-container" id="list-container">
             <ul class="header-list" id="header-list">
               <a href="#">
@@ -110,7 +114,202 @@
         </div>
       </section>
       <!----- Single Card Section End ----->
-    </section>
+
+      <!----- Features Section Start ----->
+      <section class="features-section">
+        <div class="features-row">
+          <div class="features-typo">
+            <h1>Quick & Easy Process</h1>
+            <p>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </p>
+            <div class="features-button-container">
+              <button class="btn btn-blue">Sign up for Free</button>
+              <button class="btn">Find out More</button>
+            </div>
+          </div>
+          <figure class="features-image-container">
+            <img src="assets/features-photo-1.png" alt="" />
+          </figure>
+        </div>
+        <div class="features-row">
+          <div class="features-typo">
+            <h1>Perfect for Operations HR and Finance</h1>
+            <p>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </p>
+            <div class="features-button-container">
+              <button class="btn btn-blue">Sign up for Free</button>
+            </div>
+          </div>
+          <figure class="features-image-container">
+            <img src="assets/features-photo-2.png" alt="" />
+          </figure>
+        </div>
+        <div class="features-row">
+          <div class="features-typo">
+            <h1>Perfect solution for small businesses</h1>
+            <p>
+              Being a freelancer is a rollercoaster of emotions. We built Slate
+              to keep your freelance business less stressful. We'd love to show
+              you what we're building.
+            </p>
+            <div class="features-button-container">
+              <button class="btn btn-blue">Sign up for Free</button>
+              <button class="btn">Find out More</button>
+            </div>
+          </div>
+          <figure class="features-image-container">
+            <img src="assets/features-photo-3.png" alt="" />
+          </figure>
+        </div>
+      </section>
+      <!----- Features Section End ----->
+
+      <!----- Pricing Description Section Start ----->
+      <section class="pricing-description-section">
+        <h1>Simple Pricing for Your Team</h1>
+        <p>Slate helps you see how many more days you need</p>
+      </section>
+      <!----- Pricing Description Section End ----->
+
+      <!----- Pricing Section Start ----->
+      <section class="pricing-section">
+        <div class="pricing-card">
+          <h1>Education</h1>
+          <p>Brief Price Description</p>
+          <img src="assets/pricing-photo-1.png" alt="photo1" />
+          <div class="price-container">
+            <div class="price">0</div>
+            <div class="price-column">
+              <div class="dollar">$</div>
+              <div>Per / Month</div>
+            </div>
+          </div>
+          <h3>Only 2 Operators</h3>
+          <h3>Abondoned Cart</h3>
+          <h3>Facebook & Instagram Ads</h3>
+          <h2>Order Notifications</h2>
+          <h2>Landing Pages</h2>
+          <button class="btn btn-blue">Order Now</button>
+        </div>
+        <div class="pricing-card">
+          <h1>Professional</h1>
+          <p>Brief Price Description</p>
+          <img src="assets/pricing-photo-2.png" alt="photo1" />
+          <div class="price-container">
+            <div class="price">10</div>
+            <div class="price-column">
+              <div class="dollar">$</div>
+              <div>Per / Month</div>
+            </div>
+          </div>
+          <h3>Only 2 Operators</h3>
+          <h3>Abondoned Cart</h3>
+          <h3>Facebook & Instagram Ads</h3>
+          <h2>Order Notifications</h2>
+          <h2>Landing Pages</h2>
+          <button class="btn btn-blue">Order Now</button>
+        </div>
+        <div class="pricing-card">
+          <h1>Business</h1>
+          <p>Brief Price Description</p>
+          <img src="assets/pricing-photo-3.png" alt="photo1" />
+          <div class="price-container">
+            <div class="price">99</div>
+            <div class="price-column">
+              <div class="dollar">$</div>
+              <div>Per / Month</div>
+            </div>
+          </div>
+          <h3>Only 2 Operators</h3>
+          <h3>Abondoned Cart</h3>
+          <h3>Facebook & Instagram Ads</h3>
+          <h2>Order Notifications</h2>
+          <h2>Landing Pages</h2>
+          <button class="btn btn-blue">Order Now</button>
+        </div>
+      </section>
+      <!----- Pricing Section End ----->
+
+      <!----- Subscribe Section Start ----->
+      <section class="subscribe-section">
+        <h1>SUBSCRIBE</h1>
+        <p>Subscribe to get exclusive news & offer</p>
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email Address"
+            id="input-email"
+          />
+          <button class="btn btn-blue">SUBSCRIBE</button>
+        </form>
+      </section>
+      <!----- Subscribe Section End ----->
+
+      <!----- Footer Section Start ----->
+      <footer class="footer">
+        <div class="footer-first-container">
+          <div class="footer-first-column">
+            <p>Price Item One</p>
+            <p>Price Item Two</p>
+            <p>Price Item Three</p>
+          </div>
+          <div class="footer-first-column">
+            <p>Price Item One</p>
+            <p>Price Item Two</p>
+            <p>Price Item Three</p>
+          </div>
+        </div>
+        <div class="google-map-container">
+          <div id="googleMap"></div>
+        </div>
+        <div class="footer-address-container">
+          <div class="footer-address-row">
+            <img
+              class="address-icon"
+              src="assets/footer-address-icon.svg"
+              alt=""
+            />
+            <p>Neukölln / Berlin / Germany</p>
+          </div>
+          <div class="footer-address-row">
+            <img src="assets/footer-phone-icon.svg" alt="phone" />
+            <p>+11111111111</p>
+          </div>
+          <div class="social-media-container">
+            <img src="assets/footer-twitter-icon.svg" alt="twitter" />
+            <img src="assets/footer-facebook-icon.svg" alt="facebook" />
+            <img src="assets/footer-linkedin-icon.svg" alt="linkedin" />
+          </div>
+        </div>
+      </footer>
+      <!----- Footer Section End ----->
+    </main>
     <script src="app.js"></script>
+    <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(52.4737401, 13.4474556),
+          zoom: 13,
+        };
+        var map = new google.maps.Map(
+          document.getElementById("googleMap"),
+          mapProp
+        );
+        const marker = new google.maps.Marker({
+          position: { lat: 52.4737401, lng: 13.4474556 },
+          map: map,
+        });
+      }
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=api&callback=myMap"
+      defer="defer"
+      type="text/javascript"
+    ></script>
   </body>
 </html>
