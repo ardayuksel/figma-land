@@ -25,3 +25,6 @@ https://user-images.githubusercontent.com/22565318/123674051-d7394900-d849-11eb-
 
 [Figma Link]: <https://www.figma.com/file/xymibpjxmeOLKf2YUJT7yz/Figma-Product-Landing-Page-(Community)>
 [Live Demo]: <https://ardayuksel.github.io/figma-land/>
+[HTML5]: <https://www.w3schools.com/html/>
+[CSS3]: <https://developer.mozilla.org/en-US/docs/Web/CSS>
+[Flexbox]: <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox>
